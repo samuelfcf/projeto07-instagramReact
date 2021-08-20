@@ -8,7 +8,7 @@ const HeaderMobile = () => {
             </div>
 
             <div class="instagram-mobile">
-            <img src={Logo} />
+            <img src={Logo} alt=""/>
             </div>
 
             <div class="icones-mobile">

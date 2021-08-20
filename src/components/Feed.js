@@ -2,7 +2,7 @@ import { Stories } from "./Stories";
 import { Posts } from "./Posts";
 
 
-const Left = () => {
+const Feed = () => {
     return (
         <>
             <div class="esquerda">
@@ -13,4 +13,4 @@ const Left = () => {
     );
 }
 
-export { Left };
+export { Feed };
