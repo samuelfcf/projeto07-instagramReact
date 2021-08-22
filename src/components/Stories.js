@@ -1,49 +1,39 @@
 import { Story } from "./Story";
 
-import img9gag from "../assets/img/9gag.svg";
-import imgMeowed from "../assets/img/meowed.svg";
-import imgBarked from "../assets/img/barked.svg";
-import imgNathanwpylestrangeplanet from "../assets/img/nathanwpylestrangeplanet.svg";
-import imgWawawicomics from "../assets/img/wawawicomics.svg";
-import imgRespondeai from "../assets/img/respondeai.svg";
-import imgFiloModerna from "../assets/img/filomoderna.svg";
-import imgMemeriaGourmet from "../assets/img/memeriagourmet.svg";
-
-
 const Stories = () => {
 
     const users = [
         {
             username: "9gag",
-            img: img9gag
+            img: "./assets/img/9gag.svg"
         },
         {
             username: "meowed",
-            img: imgMeowed
+            img: "./assets/img/meowed.svg"
         },
         {
             username: "barked",
-            img: imgBarked
+            img: "./assets/img/barked.svg"
         },
         {
             username: "nathanwpylestrangeplanet",
-            img: imgNathanwpylestrangeplanet
+            img: "./assets/img/nathanwpylestrangeplanet.svg"
         },
         {
             username: "wawawicomics",
-            img: imgWawawicomics
+            img: "./assets/img/wawawicomics.svg"
         },
         {
             username: "respondeai",
-            img: imgRespondeai
+            img: "./assets/img/respondeai.svg"
         },
         {
             username: "filomoderna",
-            img: imgFiloModerna
+            img: "./assets/img/filomoderna.svg"
         },
         {
             username: "memeriagourmet",
-            img: imgMemeriaGourmet
+            img: "./assets/img/memeriagourmet.svg"
         },
     ];
 

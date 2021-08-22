@@ -1,13 +1,13 @@
-import CatanaComics from "../assets/img/catanacomics.svg"
+
 
 
 const User = () => {
     return (
         <div class="usuario">
-            <img src={CatanaComics} alt=""/>
+            <img src="../assets/img/catanacomics.svg" alt="" />
             <div class="texto">
-              <strong>catanacomics</strong>
-              Catana
+                <strong>catanacomics</strong>
+                Catana
             </div>
         </div>
     )

@@ -1,4 +1,4 @@
-import Logo from "../assets/img/logo.png";
+
 
 const Header = () => {
     return (
@@ -6,7 +6,7 @@ const Header = () => {
             <div class="logo">
                 <ion-icon name="logo-instagram"></ion-icon>
                 <div class="separador"></div>
-                <img src={Logo} alt="logo"/>
+                <img src="../assets/img/logo.png" alt="logo" />
             </div>
 
             <div class="pesquisa">
