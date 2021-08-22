@@ -1,13 +1,13 @@
 
 
 
-const User = () => {
+const User = (props) => {
     return (
         <div class="usuario">
-            <img src="../assets/img/catanacomics.svg" alt="" />
+            <img src={props.userImg} alt="" />
             <div class="texto">
-                <strong>catanacomics</strong>
-                Catana
+                <strong>{props.username}</strong>
+                {props.name}
             </div>
         </div>
     )
