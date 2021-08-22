@@ -20,13 +20,12 @@ const Posts = () => {
     ];
 
     return (
-        <>
-            <div class="posts">
-                {posts.map((post) => (
-                    <Post username={post.username} imgUser={post.imgUser} imgContent={post.imgContent} imgLikes={post.imgLikes} usernameWhoLikes={post.usernameWhoLikes} />
-                ))}
-            </div>
-        </>
+
+        <div class="posts">
+            {posts.map((post) => (
+                <Post username={post.username} imgUser={post.imgUser} imgContent={post.imgContent} imgLikes={post.imgLikes} usernameWhoLikes={post.usernameWhoLikes} />
+            ))}
+        </div>
     );
 }
 

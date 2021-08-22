@@ -5,13 +5,11 @@ import { BackgroundMobile } from "./BackgroundMobile";
 
 const Body = () => {
     return (
-        <>
-            <div class="corpo">
-                <Feed />
-                <Sidebar />
-                <BackgroundMobile />
-            </div> 
-        </>
+        <div class="corpo">
+            <Feed />
+            <Sidebar />
+            <BackgroundMobile />
+        </div>
     );
 }
 

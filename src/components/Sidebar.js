@@ -10,12 +10,11 @@ const Sidebar = () => {
     }
 
     return (
-        <>
-            <div class="sidebar">
-                <User username={user.username} name={user.name} userImg={user.userImg} />
-                <Suggestions />
-            </div>
-        </>
+
+        <div class="sidebar">
+            <User username={user.username} name={user.name} userImg={user.userImg} />
+            <Suggestions />
+        </div>
     )
 }
 

@@ -1,6 +1,3 @@
-
-
-
 const User = (props) => {
     return (
         <div class="usuario">

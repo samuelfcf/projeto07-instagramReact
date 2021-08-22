@@ -7,10 +7,9 @@ const Navbar = () => {
         <div class="navbar">
             <div class="container">
                 <Header />
-                <HeaderMobile />  
+                <HeaderMobile />
             </div>
         </div>
-        
     );
 }
 

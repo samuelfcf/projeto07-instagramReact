@@ -1,10 +1,11 @@
-const Suggestion = () => {
+const Suggestion = (props) => {
+
   return (
     <div class="sugestao">
       <div class="usuario">
-        <img src="../assets/img/bad.vibes.memes.svg" alt="" />
+        <img src={props.imgUser} alt="" />
         <div class="texto">
-          <div class="nome">bad.vibes.memes</div>
+          <div class="nome">{props.username}</div>
           <div class="razao">Segue você</div>
         </div>
       </div>

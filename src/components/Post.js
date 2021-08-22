@@ -1,16 +1,14 @@
 const Post = (props) => {
     return (
-        <>
-            <div class="post">
-                <UserPost username={props.username} img={props.imgUser} />
-                <ContentPost img={props.imgContent} />
-                <LikesPost userLiked={props.usernameWhoLikes} img={props.imgLikes} />
-            </div>
-        </>
+        <div class="post">
+            <UserInfoPost username={props.username} img={props.imgUser} />
+            <ContentPost img={props.imgContent} />
+            <LikesPost userLiked={props.usernameWhoLikes} img={props.imgLikes} />
+        </div>
     )
 }
 
-const UserPost = (props) => {
+const UserInfoPost = (props) => {
     return (
         <div class="topo">
             <div class="usuario">

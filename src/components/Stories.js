@@ -38,6 +38,7 @@ const Stories = () => {
     ];
 
     return (
+
         <div class="stories">
             {users.map((user) => (
                 <Story username={user.username} img={user.img} />

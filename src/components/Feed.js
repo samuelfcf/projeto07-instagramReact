@@ -4,12 +4,10 @@ import { Posts } from "./Posts";
 
 const Feed = () => {
     return (
-        <>
-            <div class="esquerda">
-                <Stories />
-                <Posts />  
-            </div>
-        </>
+        <div class="esquerda">
+            <Stories />
+            <Posts />
+        </div>
     );
 }
 
