@@ -40,8 +40,11 @@ const Stories = () => {
     return (
 
         <div class="stories">
-            {users.map((user) => (
-                <Story username={user.username} img={user.img} />
+            {users.map((user, index) => (
+                <Story
+                    key={index}
+                    username={user.username}
+                    img={user.img} />
             ))}
             <div class="setinha">
                 <ion-icon name="chevron-forward-circle"></ion-icon>

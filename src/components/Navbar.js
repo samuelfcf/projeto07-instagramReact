@@ -1,5 +1,5 @@
-import { Header } from "./Header";
-import { HeaderMobile } from "./HeaderMobile";
+import { Header } from "./Headers/Header";
+import { HeaderMobile } from "./Headers/HeaderMobile";
 
 
 const Navbar = () => {

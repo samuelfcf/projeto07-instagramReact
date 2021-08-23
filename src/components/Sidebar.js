@@ -1,13 +1,13 @@
 import { User } from "./User";
-import { Suggestions } from "./Suggestions";
+import { Suggestions } from "./Suggestions/Suggestions";
+
+const user = {
+    username: "catanacomics",
+    name: "catana",
+    userImg: "./assets/img/catanacomics.svg"
+}
 
 const Sidebar = () => {
-
-    const user = {
-        username: "catanacomics",
-        name: "catana",
-        userImg: "./assets/img/catanacomics.svg"
-    }
 
     return (
 
