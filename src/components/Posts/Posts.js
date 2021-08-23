@@ -7,6 +7,7 @@ const posts = [
         imgContent: "./assets/img/gato-telefone.svg",
         usernameWhoLikes: "respondeai",
         imgLikes: "./assets/img/respondeai.svg",
+        qtyLikes: "101.523"
     },
     {
         username: "barked",
@@ -14,6 +15,7 @@ const posts = [
         imgContent: "./assets/img/dog.svg",
         usernameWhoLikes: "adorable_animals",
         imgLikes: "./assets/img/adorable_animals.svg",
+        qtyLikes: "99.159"
     }
 ];
 
@@ -29,7 +31,8 @@ const Posts = () => {
                     imgUser={post.imgUser}
                     imgContent={post.imgContent}
                     imgLikes={post.imgLikes}
-                    usernameWhoLikes={post.usernameWhoLikes} />
+                    usernameWhoLikes={post.usernameWhoLikes}
+                    qtyLikes={post.qtyLikes} />
             ))}
         </div>
     );

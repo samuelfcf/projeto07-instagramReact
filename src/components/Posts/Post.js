@@ -3,7 +3,7 @@ const Post = (props) => {
         <div class="post">
             <UserInfoPost username={props.username} img={props.imgUser} />
             <ContentPost img={props.imgContent} />
-            <LikesPost userLiked={props.usernameWhoLikes} img={props.imgLikes} />
+            <LikesPost userLiked={props.usernameWhoLikes} img={props.imgLikes} qtyLikes={props.qtyLikes} />
         </div>
     )
 }
@@ -47,7 +47,7 @@ const LikesPost = (props) => {
             <div class="curtidas">
                 <img src={props.img} alt="" />
                 <div class="texto">
-                    Curtido por <strong>{props.userLiked}</strong> e <strong>outras 99.159 pessoas</strong>
+                    Curtido por <strong>{props.userLiked}</strong> e <strong>outras {props.qtyLikes} pessoas</strong>
                 </div>
             </div>
         </div>
